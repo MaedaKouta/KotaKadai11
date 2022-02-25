@@ -9,11 +9,18 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
+    @IBOutlet private weak var prefectureTextLabel: UILabel!
+
+    @IBAction func exitCancel(segue: UIStoryboardSegue) {
     }
 
+    @IBAction func exitSelected(segue: UIStoryboardSegue) {
+        guard let nextVC = segue.source as? PrefecturesViewController else {
+            return
+        }
+        if let indexpathInt = nextVC.self.tableView.indexPathForSelectedRow?.row {
+            prefectureTextLabel.text = nextVC.prefectures[indexpathInt]
+        }
+    }
 
 }
-

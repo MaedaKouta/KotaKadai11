@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B9C0367327C9241C0070D17B /* PrefecturesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C0367227C9241C0070D17B /* PrefecturesViewController.swift */; };
 		B9E9B30627C9224B00C14B5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E9B30527C9224B00C14B5B /* AppDelegate.swift */; };
 		B9E9B30827C9224B00C14B5B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E9B30727C9224B00C14B5B /* SceneDelegate.swift */; };
 		B9E9B30A27C9224B00C14B5B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E9B30927C9224B00C14B5B /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B9C0367227C9241C0070D17B /* PrefecturesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrefecturesViewController.swift; sourceTree = "<group>"; };
 		B9E9B30227C9224B00C14B5B /* KotaKadai11.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KotaKadai11.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9E9B30527C9224B00C14B5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B9E9B30727C9224B00C14B5B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				B9E9B30527C9224B00C14B5B /* AppDelegate.swift */,
 				B9E9B30727C9224B00C14B5B /* SceneDelegate.swift */,
 				B9E9B30927C9224B00C14B5B /* ViewController.swift */,
+				B9C0367227C9241C0070D17B /* PrefecturesViewController.swift */,
 				B9E9B30B27C9224B00C14B5B /* Main.storyboard */,
 				B9E9B30E27C9224D00C14B5B /* Assets.xcassets */,
 				B9E9B31027C9224D00C14B5B /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B9E9B30A27C9224B00C14B5B /* ViewController.swift in Sources */,
+				B9C0367327C9241C0070D17B /* PrefecturesViewController.swift in Sources */,
 				B9E9B30627C9224B00C14B5B /* AppDelegate.swift in Sources */,
 				B9E9B30827C9224B00C14B5B /* SceneDelegate.swift in Sources */,
 			);
