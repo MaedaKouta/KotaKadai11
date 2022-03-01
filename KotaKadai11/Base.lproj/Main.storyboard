@@ -77,9 +77,6 @@
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
-                                        <connections>
-                                            <segue destination="8MJ-zM-FbJ" kind="unwind" unwindAction="exitSelectedWithSegue:" id="rmi-QU-0M7"/>
-                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                                 <connections>
@@ -106,6 +103,7 @@
                     </navigationItem>
                     <connections>
                         <outlet property="tableView" destination="HNk-EZ-jfq" id="lng-Ht-WsD"/>
+                        <segue destination="8MJ-zM-FbJ" kind="unwind" identifier="exitSelected" unwindAction="exitSelectedWithSegue:" id="lGs-Vy-iJg"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fTr-H5-MRw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
