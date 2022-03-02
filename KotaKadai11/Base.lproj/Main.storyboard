@@ -36,7 +36,7 @@
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="変更"/>
                                         <connections>
-                                            <segue destination="uPZ-OO-f95" kind="presentation" id="sLA-dz-VOt"/>
+                                            <segue destination="uPZ-OO-f95" kind="presentation" identifier="" id="sLA-dz-VOt"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -77,9 +77,6 @@
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
-                                        <connections>
-                                            <segue destination="8MJ-zM-FbJ" kind="unwind" unwindAction="exitSelectedWithSegue:" id="rmi-QU-0M7"/>
-                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                                 <connections>
@@ -106,12 +103,13 @@
                     </navigationItem>
                     <connections>
                         <outlet property="tableView" destination="HNk-EZ-jfq" id="lng-Ht-WsD"/>
+                        <segue destination="8MJ-zM-FbJ" kind="unwind" identifier="exitSelected" unwindAction="exitSelectedWithSegue:" id="Eas-dU-DKl"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fTr-H5-MRw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="8MJ-zM-FbJ" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="1618.840579710145" y="81.696428571428569"/>
+            <point key="canvasLocation" x="1626" y="82"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="6o4-SM-xIK">

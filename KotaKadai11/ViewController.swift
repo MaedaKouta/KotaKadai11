@@ -15,12 +15,11 @@ class ViewController: UIViewController {
     }
 
     @IBAction func exitSelected(segue: UIStoryboardSegue) {
-        guard let nextVC = segue.source as? PrefecturesViewController else {
+        guard let nextVC = segue.source as? PrefecturesViewController,
+              let selectedPrefectureName = nextVC.selectedPrefectureName else {
             return
         }
-        if let indexpathInt = nextVC.self.tableView.indexPathForSelectedRow?.row {
-            prefectureTextLabel.text = nextVC.prefectures[indexpathInt]
-        }
+        prefectureTextLabel.text = selectedPrefectureName
     }
 
 }
